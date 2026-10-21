@@ -1,0 +1,222 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Trade Truth Dashboard | South Africa & US Bilateral Economic Reality</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@300;400;500;600;700;800&family=JetBrains+Mono:wght@400;500;600&display=swap" rel="stylesheet">
+  <script src="https://unpkg.com/lucide@latest"></script>
+  <style>
+    body { font-family: 'Plus Jakarta Sans', sans-serif; }
+    .font-mono { font-family: 'JetBrains Mono', monospace; }
+  </style>
+</head>
+<body class="bg-slate-950 text-slate-100 min-h-screen selection:bg-emerald-500/20 selection:text-emerald-400">
+
+  <!-- Ambient lighting -->
+  <div class="fixed inset-0 pointer-events-none z-0">
+    <div class="absolute -top-32 left-1/3 w-96 h-96 bg-emerald-500/10 rounded-full blur-[140px]"></div>
+    <div class="absolute top-1/2 -right-40 w-96 h-96 bg-blue-500/10 rounded-full blur-[150px]"></div>
+    <div class="absolute -bottom-40 left-10 w-96 h-96 bg-cyan-500/10 rounded-full blur-[140px]"></div>
+  </div>
+
+  <div class="relative z-10 max-w-6xl mx-auto px-4 sm:px-6 py-8">
+    <!-- Header -->
+    <header class="border-b border-slate-800 pb-6 mb-8 flex flex-col md:flex-row md:items-center justify-between gap-4">
+      <div>
+        <div class="flex items-center gap-2 mb-2">
+          <span class="px-2.5 py-1 rounded-full text-xs font-mono font-semibold bg-emerald-500/10 text-emerald-400 border border-emerald-500/30 flex items-center gap-1.5">
+            <span class="w-1.5 h-1.5 rounded-full bg-emerald-400 animate-pulse"></span>
+            Bilateral Trade & Sanctions Fact-Checker
+          </span>
+          <span class="text-xs font-mono text-slate-400 hidden sm:inline">SA Informatics Master Portfolio</span>
+        </div>
+        <h1 class="text-2xl sm:text-4xl font-extrabold tracking-tight text-white flex items-center gap-3">
+          <span>🇿🇦 Trade Truth: SA – US Economic Reality</span>
+        </h1>
+        <p class="text-slate-400 text-sm sm:text-base mt-1 max-w-2xl font-light">
+          Tracking the real macroeconomic relationship between South Africa and the United States. Counters recurring sensationalist panic regarding immediate sanctions, AGOA expulsion, and aid termination with verified trade balance data.
+        </p>
+      </div>
+
+      <div class="flex items-center gap-3">
+        <a href="https://github.com/BongaManzini/trade-truth-dashboard" target="_blank" rel="noopener noreferrer" class="px-3 py-2 rounded-xl bg-slate-900 border border-slate-800 text-slate-300 hover:text-white hover:border-slate-700 text-xs font-mono flex items-center gap-2 transition-all">
+          <i data-lucide="github" class="w-4 h-4"></i>
+          <span>GitHub</span>
+        </a>
+        <a href="../" class="px-3 py-2 rounded-xl bg-emerald-500 hover:bg-emerald-400 text-slate-950 text-xs font-bold font-mono flex items-center gap-1.5 transition-all">
+          <i data-lucide="arrow-left" class="w-3.5 h-3.5"></i>
+          <span>Portfolio</span>
+        </a>
+      </div>
+    </header>
+
+    <!-- Core Diplomatic & Macro Indicators -->
+    <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-4 mb-8">
+      
+      <!-- AGOA Status -->
+      <div class="bg-slate-900/80 border border-emerald-500/30 rounded-3xl p-5 shadow-xl">
+        <div class="flex items-center justify-between text-xs font-mono text-emerald-400 mb-1">
+          <span>AGOA Trade Status</span>
+          <span class="w-2.5 h-2.5 rounded-full bg-emerald-400 animate-pulse"></span>
+        </div>
+        <span class="text-2xl sm:text-3xl font-black text-white font-mono block">ACTIVE</span>
+        <span class="text-xs text-emerald-300 font-mono block mt-1">Duty-Free Access Protected</span>
+        <p class="text-[11px] text-slate-400 mt-2 font-light">
+          SA remains a primary beneficiary of the African Growth and Opportunity Act, exporting autos, wine, and fruit tariff-free.
+        </p>
+      </div>
+
+      <!-- Trade Balance -->
+      <div class="bg-slate-900/80 border border-cyan-500/30 rounded-3xl p-5 shadow-xl">
+        <div class="flex items-center justify-between text-xs font-mono text-cyan-400 mb-1">
+          <span>Annual SA Exports to US</span>
+          <i data-lucide="trending-up" class="w-4 h-4"></i>
+        </div>
+        <span class="text-2xl sm:text-3xl font-black text-cyan-400 font-mono block">$14.2 Billion</span>
+        <span class="text-xs text-slate-400 font-mono block mt-1">~R 265 Billion ZAR</span>
+        <p class="text-[11px] text-slate-400 mt-2 font-light">
+          Net trade surplus in SA’s favor. The US imports more goods from South Africa than it sells back to us.
+        </p>
+      </div>
+
+      <!-- PEPFAR Aid Stream -->
+      <div class="bg-slate-900/80 border border-indigo-500/30 rounded-3xl p-5 shadow-xl">
+        <div class="flex items-center justify-between text-xs font-mono text-indigo-400 mb-1">
+          <span>PEPFAR Health Funding</span>
+          <i data-lucide="heart-pulse" class="w-4 h-4"></i>
+        </div>
+        <span class="text-2xl sm:text-3xl font-black text-indigo-300 font-mono block">$400M / Year</span>
+        <span class="text-xs text-slate-400 font-mono block mt-1">~R 7.4 Billion ZAR</span>
+        <p class="text-[11px] text-slate-400 mt-2 font-light">
+          Funds anti-retroviral treatment and clinics. Disbursed directly through healthcare NGOs, not government budget funds.
+        </p>
+      </div>
+
+      <!-- General Sanctions Status -->
+      <div class="bg-slate-900/80 border border-slate-800 rounded-3xl p-5 shadow-xl">
+        <div class="flex items-center justify-between text-xs font-mono text-slate-400 mb-1">
+          <span>US Sanctions Reality</span>
+          <i data-lucide="shield-check" class="w-4 h-4 text-emerald-400"></i>
+        </div>
+        <span class="text-2xl sm:text-3xl font-black text-white font-mono block">0 Sanctions</span>
+        <span class="text-xs text-slate-400 font-mono block mt-1">Full SWIFT & Banking Flow</span>
+        <p class="text-[11px] text-slate-400 mt-2 font-light">
+          No economic embargoes or sectoral bans exist against South Africa. Bilateral trade protocols remain fully operational.
+        </p>
+      </div>
+
+    </div>
+
+    <!-- Main Grid: Top Exports & Real-World Facts -->
+    <div class="grid grid-cols-1 lg:grid-cols-12 gap-8 mb-8">
+      
+      <!-- Top Export Sectors (7 cols) -->
+      <div class="lg:col-span-7 bg-slate-900/60 border border-slate-800 rounded-3xl p-6 sm:p-7">
+        <div class="flex items-center justify-between mb-4">
+          <div class="flex items-center gap-2">
+            <i data-lucide="package" class="w-5 h-5 text-emerald-400"></i>
+            <h3 class="text-base font-bold text-white">Top South African Exports to the United States</h3>
+          </div>
+          <span class="text-xs font-mono text-slate-400">ITC & SARS Customs Data</span>
+        </div>
+        <p class="text-xs text-slate-400 font-light mb-6">
+          Critical commodities that the American industrial base actively imports from South Africa:
+        </p>
+
+        <div class="space-y-4 font-mono text-xs">
+          <div>
+            <div class="flex justify-between text-slate-200 mb-1">
+              <span class="font-bold">1. Platinum Group Metals (PGMs) & Palladium</span>
+              <span class="text-emerald-400 font-bold">$4.1 Billion (28.8%)</span>
+            </div>
+            <div class="w-full bg-slate-950 rounded-full h-2.5 overflow-hidden">
+              <div class="bg-emerald-500 h-full rounded-full" style="width: 28.8%"></div>
+            </div>
+            <span class="text-[10px] text-slate-500 mt-0.5 block">Crucial for US catalytic converters and green hydrogen development.</span>
+          </div>
+
+          <div>
+            <div class="flex justify-between text-slate-200 mb-1">
+              <span class="font-bold">2. Motor Vehicles & Automotive Components</span>
+              <span class="text-cyan-400 font-bold">$2.8 Billion (19.7%)</span>
+            </div>
+            <div class="w-full bg-slate-950 rounded-full h-2.5 overflow-hidden">
+              <div class="bg-cyan-500 h-full rounded-full" style="width: 19.7%"></div>
+            </div>
+            <span class="text-[10px] text-slate-500 mt-0.5 block">BMW X3 (Rosslyn), Mercedes-Benz C-Class (East London), Ford Ranger.</span>
+          </div>
+
+          <div>
+            <div class="flex justify-between text-slate-200 mb-1">
+              <span class="font-bold">3. Agriculture, Citrus Fruits & Western Cape Wine</span>
+              <span class="text-amber-400 font-bold">$1.4 Billion (9.8%)</span>
+            </div>
+            <div class="w-full bg-slate-950 rounded-full h-2.5 overflow-hidden">
+              <div class="bg-amber-500 h-full rounded-full" style="width: 9.8%"></div>
+            </div>
+            <span class="text-[10px] text-slate-500 mt-0.5 block">Duty-free summer citrus shipping through Philadelphia ports.</span>
+          </div>
+
+          <div>
+            <div class="flex justify-between text-slate-200 mb-1">
+              <span class="font-bold">4. Ferro-alloys, Iron Ore & Titanium</span>
+              <span class="text-indigo-400 font-bold">$1.2 Billion (8.4%)</span>
+            </div>
+            <div class="w-full bg-slate-950 rounded-full h-2.5 overflow-hidden">
+              <div class="bg-indigo-500 h-full rounded-full" style="width: 8.4%"></div>
+            </div>
+            <span class="text-[10px] text-slate-500 mt-0.5 block">Raw industrial minerals vital for American aerospace and steelworks.</span>
+          </div>
+        </div>
+      </div>
+
+      <!-- Narrative vs Reality Table (5 cols) -->
+      <div class="lg:col-span-5 bg-slate-900 border border-slate-800 rounded-3xl p-6 shadow-xl space-y-4">
+        <div class="flex items-center gap-2">
+          <i data-lucide="check-circle" class="w-5 h-5 text-emerald-400"></i>
+          <h3 class="text-base font-bold text-white">Fact Check: The Panic vs The Data</h3>
+        </div>
+
+        <div class="space-y-3 font-mono text-xs">
+          <div class="p-3 rounded-2xl bg-slate-950 border border-slate-800">
+            <span class="text-rose-400 font-bold text-[11px] block mb-0.5">Viral Panic Narrative:</span>
+            <p class="text-slate-400 text-[11px] italic font-light">"The US Congress passed a bill sanctioning South Africa over BRICS ties."</p>
+            <div class="mt-2 pt-2 border-t border-slate-800/80">
+              <span class="text-emerald-400 font-bold text-[11px] block mb-0.5">Actual Legal Status:</span>
+              <p class="text-slate-200 text-[11px] font-light">The bipartisan US-SA Bilateral Relations Review Act was a draft congressional inquiry, not sanctions. The executive branch sets trade policy and maintains active commerce.</p>
+            </div>
+          </div>
+
+          <div class="p-3 rounded-2xl bg-slate-950 border border-slate-800">
+            <span class="text-rose-400 font-bold text-[11px] block mb-0.5">Viral Panic Narrative:</span>
+            <p class="text-slate-400 text-[11px] italic font-light">"If aid is trimmed, South Africa's national budget collapses overnight."</p>
+            <div class="mt-2 pt-2 border-t border-slate-800/80">
+              <span class="text-emerald-400 font-bold text-[11px] block mb-0.5">Actual Fiscal Position:</span>
+              <p class="text-slate-200 text-[11px] font-light">US aid accounts for less than 0.3% of SA's R2.3 Trillion national budget. Foreign aid flows directly to clinical research NGOs (Desmond Tutu Health Foundation), not state treasury coffers.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+
+    </div>
+
+    <!-- Footer -->
+    <footer class="mt-12 pt-6 border-t border-slate-800/80 flex flex-col sm:flex-row items-center justify-between text-xs text-slate-500 font-mono gap-4">
+      <p>© Bonga Manzini • BSc Informatics (UNISA) • South African Macroeconomic Data Systems</p>
+      <div class="flex items-center gap-4">
+        <a href="https://github.com/BongaManzini/trade-truth-dashboard" target="_blank" class="hover:text-emerald-400 transition-colors">GitHub Repository</a>
+        <span>•</span>
+        <a href="https://bongamanzini.github.io/portfolio/" target="_blank" class="hover:text-emerald-400 transition-colors">Portfolio</a>
+      </div>
+    </footer>
+  </div>
+
+  <script>
+    lucide.createIcons();
+  </script>
+</body>
+</html>

@@ -1,12 +1,12 @@
-# 🚢 Trade Truth: South Africa & US Bilateral Trade Reality
+# Trade Truth: South Africa & US Bilateral Trade Reality
 ### An Interactive Economic Dashboard Using Official SARS Customs Data
 
-> **Live Dashboard**: [https://bongamanzini.github.io/trade-truth-dashboard/](https://bongamanzini.github.io/trade-truth-dashboard/)  
+> **Live Dashboard**: [https://bongamanzini.github.io/trade-truth-dashboard/](https://bongamanzini.github.io/trade-truth-dashboard/) 
 > **Built by**: Bonga Manzini (BSc Informatics student at UNISA)
 
 ---
 
-## 🔬 About This Project
+## About This Project
 
 Whenever political news breaks about South Africa's international relations, people often argue about foreign aid and trade deals without looking at the actual numbers.
 
@@ -53,14 +53,14 @@ I built this dashboard to make trade data easy for students, journalists, and ci
 
 ---
 
-## 🛠️ Tech Stack
+## ️ Tech Stack
 - **HTML5 & Vanilla JavaScript**
 - **Tailwind CSS**
 - **Chart.js**
 
 ---
 
-## 🤝 Contributing & Pull Requests
+## Contributing & Pull Requests
 
 Have an idea to add trade data for other partners (like China, the UK, or the EU)?
 1. Fork this repository
